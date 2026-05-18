@@ -78,7 +78,7 @@
     font-size:72px;
     position: relative;
     left:50px;
-    margin-top:12%;
+    margin-top:16%;
     margin-bottom: 20px;
 }
 .search{
@@ -108,6 +108,7 @@
     border-radius:10px;
 }
 .categories{
+    margin-top:1.2%;
     margin-left:2.3%;
 }
 
@@ -120,45 +121,12 @@
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s ease;
-    margin-top: 28%;
+    margin-top: 30%;
     margin-left:1%;
 }
 .transparent-btn:hover {
     background: rgba(255, 255, 255, 0.2);
 }
-
-.trusted-section{
-    display: flex;
-}
-
-.trusted-section p{
-    color:white;
-    margin-left: 3.5%;
-    margin-top: 4%;
-}
-
-.trusted-section button {
-    color: white;
-    height:50px;
-    width:50px;
-    border-radius:50%;
-    background-color: rgb(136, 136, 136,0.75);
-    margin-left: 74%;
-    margin-top: 2.5%;
-    font-size: 25px;
-}
-
-.logos{
-    display:flex;
-    justify-content: left;
-    align-items: left;
-    margin-left:4%;
-    margin-top:3.5%;
-    gap:60px;
-    height:30px;
-    width:50px;
-}
-
 
 .domains{
     margin-top:5%;
@@ -176,11 +144,6 @@
     padding:15px;
     text-align: center;
     box-shadow:2px 2px 2px 2px rgb(139, 133, 133);
-}
-.domain-box p{    
-    font-size: 16px;
-    font-weight: 600;
-    margin:9px;
 }
 .domain-box:hover {
    background:radial-gradient(circle at center,#CDFFE7,white);
@@ -596,7 +559,7 @@ padding-bottom: 20px;
 
 .guide-card img {
     width: 100%;
-    height: 280px;
+    height: 180px;
     object-fit: cover;
     border-radius: 8px;
 }
